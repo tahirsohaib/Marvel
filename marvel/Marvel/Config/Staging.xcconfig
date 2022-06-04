@@ -1,0 +1,17 @@
+//
+//  Staging.xcconfig
+//  marvel
+//
+//  Created by Sohaib Tahir on 03/06/2022.
+//
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+PRODUCT_NAME = Marvel
+PRODUCT_BUNDLE_IDENTIFIER = com.marvel.co.uk
+BUNDLE_DISPAY_NAME = Marvel Staging
+
+BASE_API_URL = https:/${}/gateway.marvel.com/v1/
+API_PATH = public/characters
+API_KEY_PUBLIC = f1e5351e14198637dd52feda42113d5e
+API_KEY_PRIVATE = 1d25e7aaad46ac0bf981668ed45b1eaae2df8959
